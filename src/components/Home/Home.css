@@ -1,0 +1,38 @@
+.homeServices-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+   margin-left: 5%;
+   margin-right: 5%;
+   
+}
+teacher-image img{
+    transition: 0.6s;
+  }
+  .teacher-image img:hover{
+    cursor: pointer;
+    transform: scale(1.1) ;
+  }
+  .teacher-description h5:hover{
+   cursor: pointer;
+   color: #6229ED;
+  }
+  .course-teacher-title{
+    color: #6229ED;
+
+  }
+  .home-service-title{
+    color: #6229ED;
+
+  }
+@media only screen and (max-width: 992px) {
+    .homeServices-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
+  
+@media only screen and (max-width: 768px) {
+    .homeServices-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+  }

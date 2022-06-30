@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "img": "https://i.ibb.co/swVtcLC/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png",
+        "name": "Web Development",
+        "description": "This is based on data from their 2021 IT Skills Report. Unsurprisingly, web development is still a lucrative field in 2022.",
+        "price": "30$"
+    },
+    {
+        "id": "2",
+        "img": "https://i.ibb.co/9969CVM/softwaredevelopment.png",
+        "name": "Sf Development",
+        "description": "Cloud-native apps and frameworks are expected to be the ever-growing software development trend in 2022 year.",
+        "price": "40$"
+    },
+    {
+        "id": "3",
+        "img": "https://i.ibb.co/t4J48x9/Data-Science.jpg",
+        "name": "Data Science",
+        "description": "Data Scientist is one of the most demanded job titles you can have these days and is among the top earners in the field.",
+        "price": "50$"
+    },
+    {
+        "id": "4",
+        "img": "https://i.ibb.co/vXpwtp9/download.png",
+        "name": "Web Design",
+        "description": "Web Design is a good career. Not only are Web Design in high demand by employers, and the field is expected to grow.",
+        "price": "60$"
+    },
+    {
+        "id": "5",
+        "img": "https://i.ibb.co/DfjyZZw/pslogo.webp",
+        "name": "Adobe Photoshop",
+        "description": "The only non-subscription version of Photoshop currently for sale is Photoshop Elements, and uses adobe photoShop..",
+        "price": "70$"
+    },
+    {
+        "id": "6",
+        "img": "https://i.ibb.co/SRT4KBb/cal.png",
+        "name": "Data Analyst",
+        "description": "The reports by the U.S. Bureau of Labor Statistics indicates that the Data Analysts are projected to see faster...",
+        "price": "80$"
+    },
+    {
+        "id": "7",
+        "img": "https://i.ibb.co/m5mX206/seo.jpg",
+        "name": "SEO",
+        "description": "Taking courses and getting SEO certifications can be important if you are a beginner who wants to learn in a structured.",
+        "price": "90$"
+    },
+    {
+        "id": "8",
+        "img": "https://i.ibb.co/0hRht7N/GD.jpg",
+        "name": "Graphic Design",
+        "description": "Employment of graphic designers is projected to grow 3 percent from 2020 to 2030, slower than the average occupation.",
+        "price": "100$"
+    },
+    {
+        "id": "9",
+        "img": "https://i.ibb.co/V9KPgZk/crypto.jpg",
+        "name": "CryptoCurrency",
+        "description": "Most people also associate cryptocurrencies with high risks, and this scares off some investors. crypto market beneficial.",
+        "price": "70$"
+    }
+
+
+]

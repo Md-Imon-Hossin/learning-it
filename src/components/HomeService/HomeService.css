@@ -1,0 +1,9 @@
+.card{
+    transition: 0.2s;
+}
+.home-card:hover{
+    box-shadow: 1px 1px 10px 5px gray;
+    border: none;
+    border: 1px solid #000;
+    
+}

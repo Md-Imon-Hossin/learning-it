@@ -1,0 +1,42 @@
+.contact-us {}
+
+.contact-us h2 {
+    color: #6229ED;
+}
+
+.contact-us p {
+    color: #77787a;
+}
+
+.contact-us-container {
+    background-color: #FBF8FE;
+}
+
+.about-bottom-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+    padding: 15px 0px;
+    border-radius: 6px;
+    box-shadow: 0 2px 14px rgb(216 217 255 / 65%);
+    border-radius: 12px;
+    background: #fff;
+    margin-bottom: 1rem;
+
+}
+
+.about-bottom-flex span {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: #6229ED;
+}
+.send-message{
+    border: none;
+    background: linear-gradient(111.41deg,#ff0844 24.85%,#ff8b67 95.39%);
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}

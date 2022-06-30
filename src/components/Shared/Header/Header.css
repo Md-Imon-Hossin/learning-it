@@ -1,0 +1,30 @@
+.ml-end{
+    margin-left: 50%;
+    font-weight: 500;
+}
+.navLink{
+    text-decoration: none;
+       margin-right: 2rem;
+       color: #fff;
+       
+}
+.navLink:hover{
+    color: #fff;
+}
+.container .learning-it{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header-bg{
+    background-color: #6229ED;
+}
+.learning-icon i{
+    font-size: 25px;
+    display: inline-block; 
+    margin-right: 10px;
+}
+/* @media only screen and (max-width: 992px) {
+    .ml-end{
+        margin-left: 20px;
+    }
+} */
