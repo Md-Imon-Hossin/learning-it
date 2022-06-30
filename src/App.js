@@ -25,7 +25,6 @@ function App() {
           <Route path="/service/:serviceId" element={<ServiceDetail></ServiceDetail>} />
    
           <Route path="*" element={<NotFound></NotFound>} />
-
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
