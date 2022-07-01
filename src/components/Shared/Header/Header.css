@@ -1,30 +1,30 @@
-.ml-end{
+.ml-end {
     margin-left: 50%;
     font-weight: 500;
 }
-.navLink{
+
+.navLink {
     text-decoration: none;
-       margin-right: 2rem;
-       color: #fff;
-       
+    margin-right: 2rem;
+    color: #fff;
+
 }
-.navLink:hover{
+
+.navLink:hover {
     color: #fff;
 }
-.container .learning-it{
+
+.container .learning-it {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.header-bg{
+
+.header-bg {
     background-color: #6229ED;
 }
-.learning-icon i{
+
+.learning-icon i {
     font-size: 25px;
-    display: inline-block; 
+    display: inline-block;
     margin-right: 10px;
 }
-/* @media only screen and (max-width: 992px) {
-    .ml-end{
-        margin-left: 20px;
-    }
-} */

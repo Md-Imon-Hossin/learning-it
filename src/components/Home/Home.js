@@ -1,6 +1,5 @@
 
 import Typical from 'react-typical'
-
 import React, { useEffect, useState } from 'react';
 import slider1 from "../../images/computer-2.jpg";
 import slider2 from "../../images/computer-1.jpg";
@@ -56,7 +55,7 @@ const Home = () => {
                         <h2 className='mb-4 course-teacher-title'> Course teachers</h2>
                         <div className="col-lg-3">
                             <div className='mb-3 teacher-image'>
-                                <img className='w-100 rounded' src={teacher1} alt="" jpeg />
+                                <img className='w-100 rounded' src={teacher1} alt="" />
                             </div>
                             <div className='teacher-description'>
                                 <h5>D.C.S. Grover Wehner
@@ -68,7 +67,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-3">
                             <div className='mb-3 teacher-image'>
-                                <img className='w-100 rounded' src={teacher4} alt="" jpeg />
+                                <img className='w-100 rounded' src={teacher4} alt=""  />
                             </div>
                             <div className='teacher-description'>
                                 <h5>Oleta Carroll
@@ -80,7 +79,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-3">
                             <div className='mb-3 teacher-image'>
-                                <img className='w-100 rounded' src={teacher3} alt="" jpeg />
+                                <img className='w-100 rounded' src={teacher3} alt=""  />
                             </div>
                             <div className='teacher-description'>
                                 <h5>Dejuan Maggio
@@ -92,7 +91,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-3">
                             <div className='mb-3 teacher-image'>
-                                <img className='w-100 rounded' src={teacher2} alt="" jpeg />
+                                <img className='w-100 rounded' src={teacher2} alt=""  />
                             </div>
                             <div className='teacher-description'>
                                 <h5>Steve Weissnat

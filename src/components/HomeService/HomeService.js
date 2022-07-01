@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import "./HomeService.css"
 const HomeService = (props) => {
+    // props destructuring uses
     const { img, name, description, price } = props.homeService;
     return (
         <div>
@@ -15,8 +16,7 @@ const HomeService = (props) => {
                                 <p className="card-text">{description}</p>
                                 <p>Price : {price}</p>
                                 <Link to="/services">
-                                <button className='btn btn-primary'>Buy Now</button>
-
+                                    <button className='btn btn-primary'>Buy Now</button>
                                 </Link>
                             </div>
                         </div>

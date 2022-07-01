@@ -1,26 +1,21 @@
-import React, { useState } from 'react';
-import "./Faq.css"
+import React from 'react';
+import { Accordion } from 'react-bootstrap';
+import "./Faq.css";
+
+
 const Faq = (props) => {
-    const [toggle, setToggle] = useState(false);
-    const { title, desc } = props.faq;
+    // const [toggle, setToggle] = useState(false);
+    const { title, desc, key } = props.faq;
     return (
-        <div className='faq-container'>
-           <div className='faq'>
-                <h4>{title}</h4>
-                <button className='faq-btn' onClick={() => { setToggle(!toggle) }}>
+        // <div className='faq-container'>
+       
+            <Accordion.Item eventKey={key}>
+                <Accordion.Header>{title}</Accordion.Header>
+                <Accordion.Body>
+                    <p className='faq-des'>{desc}</p>
+                </Accordion.Body>
+            </Accordion.Item>
 
-                    {toggle ? "-" : "+"}
-                </button>
-                
-            </div>
-           
-            {toggle && <p>{desc}</p>}
-          
-            
-
-           </div>
-            
-        
     );
 };
 

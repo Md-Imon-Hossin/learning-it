@@ -4,12 +4,13 @@ import { NavLink } from 'react-router-dom';
 import "./Header.css"
 
 const Header = () => {
+  // NavLink active style
   let activeStyle = {
     color: "#FFFAF0",
     fontWeight: "bold"
   };
   return (
-
+    // NavLink start
     <Navbar className='header-bg sticky-top' expand="lg">
       <Container className='container'>
         <Navbar.Brand className='text-white learning-it'>

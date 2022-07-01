@@ -6,6 +6,10 @@
 .service-title{
     color: #6229ED;
 }
+.service-search{
+    margin: auto;
+    width: 50%;
+}
 
 @media only screen and (max-width: 992px) {
     .services{

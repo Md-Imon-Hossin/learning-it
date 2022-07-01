@@ -3,9 +3,11 @@ import "./ServiceDetail.css"
 import { useParams } from "react-router-dom";
 const ServiceDetail = () => {
   const { serviceId } = useParams();
-
+  // data store useState uses
   const [details, setDetails] = useState([]);
   const [singleDetail, setSingleDetail] = useState({});
+
+  // data loaded useEffect uses
   useEffect(() => {
     fetch(`/Services.Json`)
       .then(res => res.json())
@@ -17,12 +19,10 @@ const ServiceDetail = () => {
     setSingleDetail(foundDetail);
   }, [details])
 
-  // console.log(detail);
   return (
     <div>
       <h2 className='py-5 detail-title'>{singleDetail?.name} Service No : {serviceId}</h2>
       <div className="container main-detail-service">
-
         <div className="card detail-card" >
           <div className="row g-0">
             <div className="col-xl-5 col-lg-6 col-md-12">
@@ -37,7 +37,6 @@ const ServiceDetail = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
