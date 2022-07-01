@@ -7,7 +7,7 @@ const Contact = () => {
             {/* contact us top container */}
             <section className='contact-us-container py-4'>
                 <div className='contact-us'>
-                    <h2>Contact Us</h2>
+                    <h1>Contact Us</h1>
                     <p className='py-3'>A contact page is a common web page on a website for visitors to contact the organization or individual providing the website. <br /> The page contains one or more of the following items: an e-mail address. a telephone number. <br /> a postal address, sometimes accompanied with a map showing the location.
                     </p>
                 </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                 <div className='py-5'>
                     <div className="container">
                         <div className="row">
-                            <h2 className='mb-5 contact-experts-title'>Our experts will help you</h2>
+                            <h1 className='mb-5 contact-experts-title'>Our experts will help you</h1>
                             <div className="col-xl-2"></div>
                             <div className="col-xl-8">
                                 <div className="row">

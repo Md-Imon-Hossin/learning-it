@@ -10,7 +10,7 @@
         "id": "2",
         "img": "https://i.ibb.co/9969CVM/softwaredevelopment.png",
         "name": "Sf Development",
-        "description": "Cloud-native apps and frameworks are expected to be the ever-growing software development trend in 2022 year.",
+        "description": "Cloud-native apps and frameworks are expected to be the ever-growing software development learning trend in 2022 year.",
         "price": "40$"
     },
     {
@@ -38,7 +38,7 @@
         "id": "6",
         "img": "https://i.ibb.co/SRT4KBb/cal.png",
         "name": "Data Analyst",
-        "description": "The reports by the U.S. Bureau of Labor Statistics indicates that the Data Analysts are projected to see faster...",
+        "description": "The reports by the U.S. Bureau of Labor Statistics indicates that the Data Analysts are projected to see faster and enjoy work..",
         "price": "80$"
     },
     {
@@ -59,7 +59,7 @@
         "id": "9",
         "img": "https://i.ibb.co/V9KPgZk/crypto.jpg",
         "name": "CryptoCurrency",
-        "description": "Most people also associate cryptocurrencies with high risks, and this scares off some investors. crypto market beneficial.",
+        "description": "Most people also associate cryptocurrencies with high risks, and this scares off some investors. crypto market beneficial selected project..",
         "price": "70$"
     }
 

@@ -24,7 +24,7 @@ const Services = () => {
     }
     return (
         <div>
-            <h2 className='mt-4 service-title'>Our Most Popular Services</h2>
+            <h1 className='mt-4 mb-4 service-title'>Our Most Popular Services</h1>
             <input
                 type="search"
                 className='form-control mb-3 service-search form-control-lg' placeholder='Search Name'

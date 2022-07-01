@@ -21,7 +21,7 @@ const About = () => {
         <div>
             <section className='about-top-container'>
                 <div className='about-top-description py-5'>
-                    <h2>About</h2>
+                    <h1>About</h1>
                     <p>IT is one of our most popular categories, with in-depth courses and tutorials across all aspects of information technology. Sign up today to learn about cryptocurrency, blockchain, computer networking and server management.</p>
                 </div>
 
@@ -45,10 +45,10 @@ const About = () => {
                             <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
                                 <div className="card about-card h-100">
                                     <div className="card-body">
-                                        <span className='about-described-icon'>
+                                        <span className='about-described-icon all-icon'>
                                             <i className="fa fa-solid fa-globe"></i>
                                         </span>
-                                        <h4>All over the globe</h4>
+                                        <h4 className='all'>All over the globe</h4>
                                         <p>All over the place is also used to mean that something or someone is chaotic or disorganized, as in The weather this week has been all over the place.</p>
                                     </div>
                                 </div>
@@ -108,25 +108,25 @@ const About = () => {
                 <div className='counting mt-5'>
                     <div className="container">
                         <div className="row">
-                            <div className="col-xl-3">
-                                <h4 >750
-                                </h4>
+                            <div className="col-xl-3 mb-3">
+                                <h3 >750
+                                </h3>
                                 <p >HAPPY STUDENTS</p>
                             </div>
-                            <div className="col-xl-3">
+                            <div className="col-xl-3 mb-3">
 
-                                <h4 >869
-                                </h4>
+                                <h3 >869
+                                </h3>
                                 <p >APPROVED COURSES</p>
                             </div>
-                            <div className="col-xl-3">
-                                <h4 >248
-                                </h4>
+                            <div className="col-xl-3 mb-3">
+                                <h3 >248
+                                </h3>
                                 <p >CERTIFIED TEACHERS</p>
                             </div>
                             <div className="col-xl-3">
-                                <h4 >2400
-                                </h4>
+                                <h3 >2400
+                                </h3>
                                 <p >GRADUATED STUDENTS</p>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ const About = () => {
             <section>
                 <div className='py-5'>
                     <div className="container">
-                        <h2 className='mb-5 gallery-title'>Our Class Gallery</h2>
+                        <h1 className='mb-5 gallery-title'>Our Class Gallery</h1>
                         <div className="row">
                             <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
                                 <img width="100%" src={class1} alt="" />
@@ -169,7 +169,8 @@ const About = () => {
             </section>
             {/* frequently ask question */}
             <section className='faqs-container'>
-            <Accordion>
+            <Accordion className='accordion-container'>
+            <h1 className='mb-4 faq-title'>Answering your common <br /> questions</h1>
                 {
                     faqs.map(faq => <Faq
                         key={faq.id}

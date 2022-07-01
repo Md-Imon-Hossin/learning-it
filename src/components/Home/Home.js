@@ -37,7 +37,7 @@ const Home = () => {
                 <Typical
                     steps={['Our-', 1000, 'Our Most Popular Courses', 2000]}
                     loop={2}
-                    wrapper="h2"
+                    wrapper="h1"
                 />
             </div>
             <div className='homeServices-container'>
@@ -52,7 +52,7 @@ const Home = () => {
             <section>
                 <div className="container mb-4">
                     <div className="row py-3">
-                        <h2 className='mb-4 course-teacher-title'> Course teachers</h2>
+                        <h1 className='mb-4 course-teacher-title'> Course teachers</h1>
                         <div className="col-lg-3">
                             <div className='mb-3 teacher-image'>
                                 <img className='w-100 rounded' src={teacher1} alt="" />
