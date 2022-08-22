@@ -27,7 +27,7 @@ const Services = () => {
             <h1 className='mt-4 mb-4 service-title'>Our Most Popular Services</h1>
             <input
                 type="search"
-                className='form-control mb-3 service-search form-control-lg' placeholder='Search Name'
+                className='form-control mb-3 service-search form-control-lg w-75' placeholder='Type here to search'
                 onChange={handleSearch}
             />
 

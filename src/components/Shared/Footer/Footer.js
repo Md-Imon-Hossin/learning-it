@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="footer-bottom mt-2">
+            <div className="footer-bottom mt-4">
                 <p>Copyright &copy;2022 Designed By Md Nazmul Hossain Emon</p>
             </div>
         </section>
